@@ -46,10 +46,7 @@
 
     <ItemGroup>
         <PackageReference Include="Soenneker.Kiota.GenericAuthenticationProvider" Version="11.0.59" />
-        <ProjectReference Include="..\..\..\soenneker.pinterest.httpclients\src\Soenneker.Pinterest.HttpClients\Soenneker.Pinterest.HttpClients.csproj" Condition="Exists('..\..\..\soenneker.pinterest.httpclients\src\Soenneker.Pinterest.HttpClients\Soenneker.Pinterest.HttpClients.csproj')" />
-        <PackageReference Include="Soenneker.Pinterest.HttpClients" Version="11.0.0" Condition="!Exists('..\..\..\soenneker.pinterest.httpclients\src\Soenneker.Pinterest.HttpClients\Soenneker.Pinterest.HttpClients.csproj')" />
-        <ProjectReference Include="..\..\..\soenneker.pinterest.openapiclient\src\Soenneker.Pinterest.OpenApiClient\Soenneker.Pinterest.OpenApiClient.csproj" Condition="Exists('..\..\..\soenneker.pinterest.openapiclient\src\Soenneker.Pinterest.OpenApiClient\Soenneker.Pinterest.OpenApiClient.csproj')" />
-        <PackageReference Include="Soenneker.Pinterest.OpenApiClient" Version="11.0.0" Condition="!Exists('..\..\..\soenneker.pinterest.openapiclient\src\Soenneker.Pinterest.OpenApiClient\Soenneker.Pinterest.OpenApiClient.csproj')" />
-        <PackageReference Include="Soenneker.Utils.AsyncSingleton" Version="11.0.886" />
+        <PackageReference Include="Soenneker.Pinterest.HttpClients" Version="11.0.1" />
+        <PackageReference Include="Soenneker.Pinterest.OpenApiClient" Version="11.0.1" />
     </ItemGroup>
 </Project>
