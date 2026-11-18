@@ -46,7 +46,7 @@
 
     <ItemGroup>
         <PackageReference Include="Soenneker.Kiota.GenericAuthenticationProvider" Version="11.0.62" />
-        <PackageReference Include="Soenneker.Pinterest.HttpClients" Version="11.0.16" />
+        <PackageReference Include="Soenneker.Pinterest.HttpClients" Version="11.0.17" />
         <PackageReference Include="Soenneker.Pinterest.OpenApiClient" Version="11.0.14" />
     </ItemGroup>
 </Project>
